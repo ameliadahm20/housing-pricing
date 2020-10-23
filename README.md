@@ -5,6 +5,9 @@
 
 With data exploration, statistical testing, and feature engineering, I developed a regression model to take variables that can predict the price of a house in Kings County in Seattle, Washington. This repository contains the files that lead to the final predictions for a holdout dataset that had not been trained on the model and do not have the prices included. 
 
+## Takeaways
+The model I chose used an F-Test which selected the features with the highest significance. Some of these features include square footage, the year it was rennovated, distance to a top school, and more. With this information, a real estate agent should be able to find strong selling points on a house. They can have a better idea of what a house should be worth if a seller is listing too high or low. 
+
 ### Deliverables:
 1. [GitHub repository](https://github.com/ameliadahm20/housing-pricing)
 2. [Jupyter Notebook](KingsCountyHousingPrices.ipynb)
